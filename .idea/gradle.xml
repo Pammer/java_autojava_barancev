@@ -3,16 +3,8 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/point" />
-        <option name="gradleHome" value="$PROJECT_DIR$/../../../../../gradle-6.5" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/point" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/sandbox" />
         <option name="gradleHome" value="$PROJECT_DIR$/../../../../../gradle-6.5" />

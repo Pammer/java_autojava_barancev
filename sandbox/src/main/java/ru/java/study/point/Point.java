@@ -1,3 +1,7 @@
+package ru.java.study.point;
+
+import java.io.UnsupportedEncodingException;
+
 public class Point {
   public int x;
   public int y;
@@ -7,7 +11,7 @@ public class Point {
     this.y = y;
   }
 
-  public double distance(Point to) {
+  public double distance(Point to) throws UnsupportedEncodingException {
     double distance = Math.sqrt(Math.pow(to.x - this.x, 2) + Math.pow(to.y - this.y, 2));
     System.out.println("Дистанция , полученная вызовом метода объекта  от точки " + this + " до точки " + to + ": " + distance);
     return distance;

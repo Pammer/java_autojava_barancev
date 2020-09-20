@@ -1,6 +1,10 @@
+package ru.java.study.point;
+
+import java.io.UnsupportedEncodingException;
+
 public class PointStarter {
 
-  public static void main(String[] args) {
+  public static void main(String[] args) throws UnsupportedEncodingException {
     Point from = new Point(1, 1);
     Point to = new Point(1, 20);
     distance(from, to);
